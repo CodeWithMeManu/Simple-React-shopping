@@ -1,38 +1,65 @@
-.App {
+* {
+  font-family: "Roboto";
+}
+
+.shopping-container {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  background-color: black;
+  color: #ffff;
+  margin: 10px;
+}
+ul li {
+  display: inline-block;
+  padding: 10px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cart-title {
+  margin-top: 26px;
+  font-size: 17px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list-container {
+  margin-right: 15px;
+  cursor: pointer;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.list {
+  margin-left: 20px;
+}
+.banner-container img {
+  width: 100%;
+}
+.collection-section {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.image-section img {
+  height: 170px;
+  width: 190px;
+  margin: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.image-women img {
+  width: 100%;
+}
+
+.img-footer {
+  box-shadow: 10px 10px 10px;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-size: 26px;
+}
+.search-input {
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+@media (max-width: 1200px) {
+  .shopping-container {
+    background-color: red;
   }
 }
